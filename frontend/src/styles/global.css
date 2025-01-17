@@ -1,0 +1,299 @@
+/* Global Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  color: #f8f9fa;
+  background-color: #2b2b2b;
+}
+
+/* Header and Title */
+.header {
+  padding: 20px;
+  background-color: #333;
+  border-bottom: 1px solid #444;
+  color: #ffffff;
+}
+
+h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+/* Button Styles */
+button,
+button:focus {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Tabs */
+.tabs-container {
+  margin-bottom: 20px;
+}
+
+.tabs-container .MuiTabs-root {
+  background-color: #333;
+  border-radius: 8px;
+  color: #ffffff;
+}
+
+/* Sections */
+.section {
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #3a3a3a;
+  border-radius: 8px;
+}
+
+.section h2 {
+  margin-bottom: 15px;
+  border-bottom: 1px solid #444;
+  padding-bottom: 5px;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  color: #444;
+}
+
+table th,
+table td {
+  border: 1px solid #9f9e9e;
+  padding: 10px;
+}
+
+table th {
+  background-color: #444;
+  color: #1b69be;
+  text-align: left;
+}
+
+table tr:nth-child(even) {
+  background-color: #444;
+  color: #ffffff;
+}
+
+/* Global Container Styles */
+.dashboard-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #f8f9fa;
+  background-color: #2b2b2b;
+  min-height: 100vh;
+}
+
+/* Header Styles */
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.dashboard-header h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.logout-button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #dc3545;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+  background-color: #a71d2a;
+}
+
+/* Tiles Styles */
+.tiles-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+/* Loading and Error Messages */
+.loading {
+  text-align: center;
+  font-size: 18px;
+  color: #007bff;
+}
+
+.error-container {
+  text-align: center;
+}
+
+.error-message {
+  color: red;
+  font-size: 16px;
+  margin-bottom: 1rem;
+}
+
+.retry-button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.retry-button:hover {
+  background-color: #0056b3;
+}
+
+/* No Data Message */
+.no-data-message {
+  text-align: center;
+  margin-top: 1.5rem;
+  font-size: 16px;
+  color: #cccccc;
+}
+
+/* Container */
+.rfq-list-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #f8f9fa;
+  background-color: #2b2b2b;
+  min-height: 100vh;
+}
+
+.rfq-list-container h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Table Styles */
+.rfq-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  background-color: #3a3a3a;
+  color: #f8f9fa;
+}
+
+.rfq-table th,
+.rfq-table td {
+  border: 1px solid #585656;
+  padding: 10px;
+  text-align: left;
+  background-color: #fff;
+  color: #444;
+}
+
+.rfq-table th {
+  background-color: #444;
+  color: #f8f9fa;
+}
+
+.rfq-table tr:nth-child(even) {
+  background-color: #383838;
+}
+
+.rfq-table tr:hover {
+  background-color: #5b5a5a; /* Set your desired hover background color */
+  color: #363636; /* Optional: Change text color on hover */
+}
+
+/* Button Styles */
+.link-button {
+  background: none;
+  border: none;
+  color: #007bff;
+  text-decoration: underline;
+  cursor: pointer;
+  padding: 0;
+  font-size: 1rem;
+}
+
+.link-button:hover {
+  color: #66686b;
+}
+
+.action-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.action-button:hover {
+  background-color: #0056b3;
+}
+
+/* Error Message */
+.error-message {
+  color: red;
+  font-size: 16px;
+  text-align: center;
+}
+
+/* Styling for the Tabs container */
+.custom-tabs .MuiTab-root {
+  font-weight: bold; /* Bold text */
+  color: rgb(182, 179, 179); /* Grey color */
+  text-transform: none; /* Prevent uppercase transformation */
+  font-size: 16px; /* Adjust font size */
+  padding: 10px 20px; /* Add padding for better spacing */
+  border-radius: 8px; /* Slightly round corners */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition effect */
+}
+
+/* Hover effect for tabs */
+.custom-tabs .MuiTab-root:hover {
+  background-color: rgba(0, 123, 255, 0.1); /* Light blue background on hover */
+  color: #0056b3; /* Slightly darker blue for text on hover */
+}
+
+/* Styling for the selected Tab */
+.custom-tabs .MuiTab-root.Mui-selected {
+  color: #007bff; /* Custom color for selected tab */
+  background-color: rgba(0, 123, 255, 0.2); /* Light blue background */
+  border-bottom: 2px solid #007bff; /* Additional bottom border for emphasis */
+}
+
+/* Styling for the underline indicator */
+.custom-tabs .MuiTabs-indicator {
+  background-color: #007bff; /* Custom underline color */
+  height: 3px; /* Slightly thicker underline */
+}
+
+/* First tab specific styling */
+.custom-tabs .MuiTab-root:first-child.Mui-selected {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for a highlighted effect */
+  border: 1px solid #007bff; /* Outline for the first tab */
+}

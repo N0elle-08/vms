@@ -1,0 +1,59 @@
+/* General layout styles */
+.layout-container {
+    display: flex;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+  }
+  
+  .sidebar {
+    width: 200px;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sidebar h3 {
+    margin-top: 0;
+    font-size: 18px;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    margin: 10px 0;
+  }
+  
+  .sidebar ul li a,
+  .sidebar ul li a:visited {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    display: block;
+    padding: 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover styles */
+  .sidebar ul li a:hover {
+    background-color: #444;
+  }
+  
+  /* Active link styles */
+  .sidebar ul li a.active-link {
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+    border-left: 4px solid #0056b3;
+  }
+  
+  .content-container {
+    flex: 1;
+    background-color: #444;
+    padding: 0; /* Add padding for proper spacing */
+  }
+  
